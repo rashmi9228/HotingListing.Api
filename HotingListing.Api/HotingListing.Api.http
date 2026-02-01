@@ -1,0 +1,36 @@
+@HotingListing.Api_HostAddress = https://localhost:7217
+
+GET {{HotingListing.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+GET {{HotingListing.Api_HostAddress}}/api/hotels
+
+###
+
+POST {{HotingListing.Api_HostAddress}}/api/hotels
+Content-Type: application/json
+
+{
+  //Hotel
+}
+
+###
+
+GET {{HotingListing.Api_HostAddress}}/api/hotels/0
+
+###
+
+DELETE {{HotingListing.Api_HostAddress}}/api/hotels/0
+
+###
+
+PUT {{HotingListing.Api_HostAddress}}/api/hotels/0
+Content-Type: application/json
+
+{
+  //Hotel
+}
+
+###
